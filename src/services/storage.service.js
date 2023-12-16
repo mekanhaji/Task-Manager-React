@@ -38,7 +38,7 @@ export const useTasks = () => {
   // add task
   const addTask = (task) => {
     const newId = tasks.length + 1;
-    const newTask = { newId, ...task };
+    const newTask = { id : newId, ...task };
     const taskData = [...tasks, newTask];
 
     setTasks(taskData);
