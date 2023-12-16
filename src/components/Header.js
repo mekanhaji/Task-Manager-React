@@ -1,11 +1,11 @@
 import PropTypes from 'prop-types'
-import Buttton from './Buttton'
+import Button from './Button'
 
-const Header = ({title , onAdd, btnText, btnColor }) => {
+const Header = ({title , onAdd, btnText}) => {
   return (
     <header className='header'>
         <h1>Task tracker { title}</h1>
-        <Buttton text={btnText} color={btnColor} onClick={ onAdd }/>
+        <Button text={btnText} onClick={ onAdd }/>
     </header>
   )
 }
