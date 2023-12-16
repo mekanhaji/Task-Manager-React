@@ -13,7 +13,6 @@ function App() {
       <Header
         onAdd={() => setShowForm(!showForm)}
         btnText={showForm ? "Hide" : "Add Task"}
-        btnColor={showForm ? "black" : "green"}
       />
       {showForm && <AddTask onAddTask={addTask} />}
       {tasks.length !== 0 ? (
