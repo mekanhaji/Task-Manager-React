@@ -132,3 +132,7 @@ footer {
   margin-top: 30px;
   text-align: center;
 }
+
+.text-color {
+  color: var(--text-color);
+}
