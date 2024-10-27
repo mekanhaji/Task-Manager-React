@@ -6,6 +6,7 @@ export default defineConfig(() => {
     build: {
       outDir: "build",
     },
+    base: "/Task-Manager-React",
     plugins: [react()],
   };
 });
